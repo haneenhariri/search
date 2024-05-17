@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.6;
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    font-size: 15px;
+}
+.text
+{
+    opacity: 0.8;
+}
+.title
+{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.container
+{
+    min-height: 100vh;
+}
+.meal-wrapper
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+.meal-search
+{
+    margin: 20px;
+}
+.meal-search cite
+{
+    font-size: 15px;
+}
+.meal-serch-box
+{
+    margin: 10px 0;
+    display: flex;
+    align-items: stretch;
+}
+.search-content,.search-btn
+{
+    width: 100%;
+}
+.search-content
+{
+    padding: 0 15px;
+    font-size: 15px;
+    outline: 0;
+    border: 1px solid grey;
+    color: black;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.search-btn
+{
+    width: 55px;
+    height: 55px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.meal-result{
+margin-top: 4rem;
+
+}
+#meal
+{
+    margin: 10px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.meal-item
+{
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px 0;
+    box-shadow: 0 4px 21px -12px gray;
+    margin:  10px;
+    width: 250px;
+    
+}
+.meal-img img{
+    width: 100%;
+    display: block;
+}
+.meal-name
+{
+    padding: 15px 10px ;}
+.recipe-btn
+{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-weight: 500;
+    font-size: 15px;
+    display: block;
+    width: 175px;
+    padding: 5px 0 ;
+    margin: 10px;
+    border-radius: 10px;
+}
+.meal-ditails
+{
+    top: 50%;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    background-color: black;
+    width: 90%;
+    height: 90%;
+    overflow-y: scroll;
+    padding: 25px;
+    display: none;
+}
+.recipe-title
+{
+    padding-bottom: 10px;
+
+}
+.recipe-catogry
+{
+    background-color: white;
+    font-weight: 600;
+    color: #000;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 7px;
+
+
+}
+.recipe-insertut
+{
+    padding: 10px;
+}
+.recipe-meal-img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+.recipe-link
+{
+    margin: 15px;
+}
+.recipe-link a{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.meal-ditails-content
+{
+    margin: 20px;
+}
+.meal-ditails-content p{
+    padding: 10px 0 ;
+
+}
+.meal-ditails::-webkit-scrollbar{
+    width: 10px;
+}
+.meal-ditails::-webkit-scrollbar-thumb
+{
+    background: rgb(192, 15, 15);
+    border-radius: 7px;
+}
+.show-recipe{
+    display: block;
+}
+.meal-ditails-content
+{
+    margin: 20px;
+}
+.recipe-close-btn
+{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 50px;
+    border: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (min-width: 600px)
+{
+    .meal-serch-box
+    {
+        width: 540px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+}
+@media screen and (min-width: 768px)
+{
+    #meal
+    {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .meal-ditails
+    {
+        width: 700px;
+
+    }
+}
